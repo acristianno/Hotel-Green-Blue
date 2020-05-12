@@ -1,2 +1,2 @@
 # Hotel Green Blue
- Pagina Hotel Green Blue
+ Pagina do Hotel Green Blue.
