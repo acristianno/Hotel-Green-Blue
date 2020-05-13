@@ -1,0 +1,31 @@
+.parte__um {
+
+    width: 100%;
+    background: #134034;
+    align-items: center;
+    letter-spacing: 0.2rem;
+    padding: 0.6rem 0;
+}
+
+.um__contato {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 600px) {
+
+    .parte__um {
+
+        letter-spacing: 0.08rem;
+    }
+
+    .um__contato {
+
+        font-size: 1rem;
+    }
+}

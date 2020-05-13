@@ -1,0 +1,92 @@
+.parte__dois {
+
+    width: 100%;
+}
+
+.banner {
+
+    background: url(../../Imagens/frente-hotel.png) no-repeat center / cover;
+    max-width: 100%;
+    height: calc(100vh - 119.5px);
+}
+
+.pt2__img {
+
+    background: url(../../Imagens/img-pq.png) no-repeat center / cover;
+    width: 300px;
+    height: 300px;
+    margin: auto 0;
+    border-radius: 100%;
+}
+
+.pt2__atendimento {
+
+    display: flex;
+    background: #f8f8f8;
+    justify-content: center;
+}
+
+.pt2__texto {
+
+    color: black;
+    margin-top: 2rem;
+    width: 60%;
+}
+
+.pt2__subtitulo {
+
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    font-size: 1.6rem;
+    color: #134034;
+    margin-bottom: 2rem;
+}
+
+.pt2__descricao {
+   
+    padding-left: 3rem; 
+    letter-spacing: 0.157rem;
+    font-weight: 200;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 760px)   {
+    
+    .banner {
+
+        height: calc(100vh - 159.5px);
+    }
+
+    .pt2__atendimento {
+
+        display: block;
+        padding-top: 3rem;
+    }
+
+    .pt2__texto {
+
+        width: 100%;
+    }
+
+    .pt2__img {
+
+        margin: 0 auto;
+    }
+
+    .pt2__descricao {
+
+        padding: 0 2rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .banner {
+
+        height: calc(100vh - 128px);
+    }
+}

@@ -1,0 +1,84 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/index.css">
+        <link rel="stylesheet" href="./assets/css/contato.css">
+        <link rel="stylesheet" href="./assets/css/Nav-bar.css">
+        <link rel="stylesheet" href="./assets/css/menu-abrirFechar.css">
+        <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="stylesheet" href="./assets/js/menu.js">
+        <link rel="stylesheet" href="./assets/css/contato-form.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <header>
+        <div class="navbar">
+            <button class="menu__abrir">Abre Menu</button>
+            <a href="index.html" class="navbar__logo"><img src="Imagens/Logo Hotel.png"></a>            
+            <nav class="navbar__menu">
+                <button class="menu__fechar">Fecha Menu</button>
+                <ul class="navbar__menuLista">
+                    <li class="navbar__lista"><a href="index.html" class="navbar__link">Home</a></li>
+                    <li class="navbar__lista"><a href="#" class="navbar__link">Hotel</a></li>
+                    <li class="navbar__lista"><a href="#" class="navbar__link">Reservas</a></li>
+                    <li class="navbar__lista"><a href="contato.html" class="navbar__link">Contato</a></li>
+                </ul>   
+            </nav>
+        </div>
+    </header>
+    <body>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.7477824963535!2d-53.83967478494188!3d-25.
+        144216527823556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f158bb03b4b83f%3A0xcd2e45c542e48745!2sHotel%
+        20Green%20Blue!5e0!3m2!1spt-BR!2sbr!4v1587246810977!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" 
+        style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="contato-mapa"></iframe>
+    <main class="main__contato">
+        <div class="contato__formulario">
+            <h2 class="contato__form___titulo">Fale Conosco</h2>
+            <form class="contato__formulario___campos">
+                <input type="text" id="nome" name="nome" class="contato__input" placeholder="Nome*">
+                <input type="email" id="email" name="email" class="contato__input" placeholder="E-Mail*">
+                <input type="tel" id="telefone" name="telefone" class="contato__input" placeholder="Telefone*">
+                <textarea cols="70" rows="10" id="msg" placeholder="Mensagem*"></textarea>
+                <input type="submit" id="submit" value="Enviar" class="botao__formulario">
+            </form>
+        </div>
+        <div class="contato__contato">
+            <div class="contato__central">
+                <h2 class="contato__form___titulo titulo-center">Central de Resevas</h2>
+                <ul class="contato__numeros">
+                    <li class="contato__lista"><i class="fab fa-whatsapp corverde"></i> 99923-0435</li>
+                    <li class="contato__lista"><i class="fas fa-phone-alt"></i> 3266-5568</li>
+                    <li class="contato__lista"><i class="fas fa-phone-alt"></i> 3255-9877</li>
+                </ul>
+            </div>
+            <div class="contato__hotel">
+                <h2 class="contato__form___titulo titulo-center">Hotel Green Blue</h2>
+                <p class="contato__itens">Rua Belém</p>
+                <p class="contato__itens">Número 1165</p>
+                <p class="contato__itens">Cidade Céu Azul - Paraná</p>
+                <p class="contato__itens">E-mail Hotelgreenblu@gmail.com</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__endereco">
+            <p class="footer__endereco___endereco">Avenida Nilo Bazzo, margens da BR-277 | Km 636<br> 
+                Bairro Industial - Céu Azul - Paraná<br>
+                CEP: 85840-000</p>
+            <p class="footer__endereco___copy"><br>&copy;2020 - Hotel Green Blue - Todos os direitos reservados</p>
+        </div>
+        <div class="footer__contato">
+            <h4 class="footer__contato___titulo">Central de reservas</h4>
+            <ul class="footer__contato___numeros">
+                <li><i class="fab fa-whatsapp fa-2x"></i> 99992-7703</li>
+                <li><i class="fas fa-phone-alt fa-2x"></i> (45) 3266-3402</li>
+            </div>            
+        </div>
+        <div class="footer__logo"></div>
+    </footer>
+</body>
+<script src="./assets/js/menu.js"></script>
+</html>

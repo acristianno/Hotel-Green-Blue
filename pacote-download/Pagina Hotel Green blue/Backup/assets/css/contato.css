@@ -1,0 +1,111 @@
+.contato-principal {
+
+    display: flex;
+    width: 75%;
+    border: black 1px transparent;
+    margin: 5rem auto;
+}
+
+.contato-formulario {
+
+    display: flex;
+    flex-direction: column;
+    border-right: gray 1px solid;
+    padding: 2rem 1rem;
+    background: white;
+    flex-grow: 1;
+
+}
+
+.contato-titulo {
+
+    color: #134d1d;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.titulo-center {
+
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contato-item {
+
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    color: #133d4d;
+}
+
+.contato-input {
+
+    height: 2.5rem;
+}
+
+.contato-formulario-campos {
+
+    display: flex;
+    flex-direction: column;
+}
+
+#submit {
+
+    width: 23%;
+    height: 3.5rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    background-color: #00261c;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    align-self: center;
+}
+
+.contato-contato {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.contato-central-reserva {
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;    
+    padding: 2rem 1rem;
+}
+
+.central-reserva-numeros {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contato-hotel {
+
+    flex-grow: 1;
+    padding: 2rem 1rem;
+    color: #133d4d;
+}
+
+.contato-hotel-itens{
+
+    padding: 0.2rem 0;
+}
+
+.teste {
+
+    font-size: 1.6rem;
+    padding: 0.2rem 0;
+    color: #133d4d;
+}
+
+.corverde {
+
+    color: green;
+}
