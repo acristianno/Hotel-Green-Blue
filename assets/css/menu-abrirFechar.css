@@ -42,7 +42,6 @@
     
     .menu__ativo:after {
 
-        content: "";
         display: block;
         position: fixed;
         top: 0;
