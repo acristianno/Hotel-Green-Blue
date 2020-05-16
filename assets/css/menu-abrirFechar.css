@@ -17,12 +17,12 @@
 
 @media screen and (max-width: 600px) {
     .navbar__menu {
+
         background: white;
         padding: 1em;
         margin: 0;
         height: 100%;
-        width: 90%;
-        max-width: 320px;
+        width: 70%;
         position: fixed;
         z-index: 1;
         top: 0;
@@ -35,17 +35,16 @@
     }
 
     .navbar__lista {
-        padding: 1em 0;
-        width: 100%;
-        color: white;
+        padding: 1.5rem 1rem;
     }
     
     .menu__ativo:after {
 
+        content: " ";
         display: block;
         position: fixed;
+        width: 30%;
         top: 0;
-        left: 0;
         bottom: 0;
         right: 0;
         background: rgba(0,0,0,0.4);
@@ -53,7 +52,7 @@
 
     .menu__abrir {
         height: 0;
-        width:.75em;
+        width: 1.7rem;
         padding-top:.125em;
         border-top: .375em double #000;
         border-bottom: .125em solid #000;
