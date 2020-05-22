@@ -89,4 +89,9 @@
 
         height: calc(100vh - 128px);
     }
+
+    .pt2__texto {
+
+        margin-top: 3rem;
+    }
 }

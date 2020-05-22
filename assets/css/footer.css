@@ -93,14 +93,21 @@
     
     .footer__contato {
 
-        margin: 1.2rem 0;
+        margin: 2rem 0;
         width: 100%;
+        order: 1;
     }
 
     .footer__endereco {
 
-        text-align: center;
-        width: 100%;
+        text-align: justify;
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .footer__endereco___copy {
+
+        margin-bottom: 0.6rem;
     }
 
     .footer__logo {
